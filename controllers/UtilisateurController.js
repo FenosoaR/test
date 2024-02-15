@@ -1,5 +1,4 @@
 const { Ecole, Eleve } = require("../models");
-const { Op } = require("sequelize");
 
 const creer_ecole = async (req, res) => {
   try {
